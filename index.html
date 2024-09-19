@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terimakasih</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px; /* Fixed width of 600px */
+            padding-left: 30px; /* Minimal padding for smaller screens */
+            padding-right: 30px;
+            margin: 0 auto;
+        }
+        .thank-you {
+            font-size: 36px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #ff6b6b;
+            display: inline-block;
+            padding: 10px 20px;
+            transform: skew(-10deg);
+            margin-bottom: 30px;
+        }
+        p {
+            margin: 10px 0 20px;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: left;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Make sure width stays fixed at 600px */
+        @media (max-width: 600px) {
+            .container {
+                max-width: 100%; /* Allow container to adjust below 600px if screen is smaller */
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .thank-you {
+                font-size: 28px;
+                padding: 8px 16px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .cta-button {
+                padding: 12px 24px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="thank-you">Terimakasih!</div>
+        <p><b>Selamat!</b></p>
+        <p>Kamu sudah bergabung di waiting list eBook spesial ini.</p>
+        <p>Kami akan mengirimkan email jika <b>EBOOK Strategi Bikin Sumber Duit buat Konten Kreator</b> sudah launching.</p>
+        <p>Sebagai <b>BONUS</b>, silakan <b>download eBook</b> yang berisi ilmu pondasi bagi Konten Kreator di bawah ini:</p>
+        <a href="https://drive.google.com/file/d/1dBKYG5HVN1Dr0p_Rb5lOn0i9uMWau55L/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cta-button">Download eBook BONUS</a>
+    </div>
+
+    <!-- Facebook Pixel Code -->
+    <!-- <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 'YOUR_PIXEL_ID'); 
+      fbq('track', 'Lead');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=Lead&noscript=1"
+    /></noscript>
+    -->
+    <!-- End Facebook Pixel Code -->
+</body>
+</html>
